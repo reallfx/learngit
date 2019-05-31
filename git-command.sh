@@ -67,3 +67,17 @@ git merge dev
 # 冲突解决
 # merge 时发现冲突:
 # 先编辑,再add,再commit
+
+# 创建者
+git remote add origin <url>
+git push origin master
+
+# 修改者
+git clone <url>
+git add xxfile
+git commit
+
+git push 
+
+# 创建者
+git pull 
