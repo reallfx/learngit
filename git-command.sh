@@ -49,11 +49,6 @@ git checkout -- src/Hello.java
 # 已经commit的无法彻底删除,可以通过版本回退找到
 # 提交一个已经删除的文件,可以在最新的版本中消除.但历史版本还有
 
-<<<<<<< HEAD
-# 合并冲突
-
-# 先编辑,再add,再commit
-=======
 # 查看分支,绿色的带星的是当前的分支
 git branch -v
 
@@ -70,6 +65,5 @@ git branch master
 git merge dev
 
 # 冲突解决
->>>>>>> dev
-
-
+# merge 时发现冲突:
+# 先编辑,再add,再commit
