@@ -63,3 +63,5 @@ git checkout dev
 # 在master上,从dev往master拉
 git branch master
 git merge dev
+
+# 冲突解决
